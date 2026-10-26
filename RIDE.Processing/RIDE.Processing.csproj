@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\RIDE.Domain\RIDE.Domain.csproj" />
+    <ProjectReference Include="..\RIDE.Rules\RIDE.Rules.csproj" />
+    <ProjectReference Include="..\RIDE.AI\RIDE.AI.csproj" />
+    <ProjectReference Include="..\RIDE.Integrations\RIDE.Integrations.csproj" />
+    <ProjectReference Include="..\RIDE.Data\RIDE.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
